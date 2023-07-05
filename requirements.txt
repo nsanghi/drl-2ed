@@ -1,0 +1,3 @@
+jupyterlab==4.0.2
+gymnasium [classic-control] ==0.28.1
+matplotlib==3.7.1
