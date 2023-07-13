@@ -3,7 +3,8 @@
 ### Local Install - Ubuntu
 1. Please install following ubuntu packages using:
 ```
-apt-get update && apt-get install swig cmake
+apt-get install swig cmake ffmpeg freeglut3-dev xvfb git-lfs
+git lfs install
 ```
 2. Create a new `venv` or `conda` environment with `python=3.10`. Activate it and then inside the environment, install packages from `requirements.txt` using following command:
 ```
