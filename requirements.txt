@@ -1,13 +1,16 @@
-jupyterlab==4.0.2
+jupyterlab==4.0.7
 box2d-py==2.3.8
-stable-baselines3[extra]>=2.0.0a4
+stable-baselines3[extra]>=2.1
 moviepy==1.0.3
 #huggingface_sb3 @ git+https://github.com/huggingface/huggingface_sb3@gymnasium-v2
-huggingface_sb3
+huggingface_sb3>=3.0
 gym==0.26.2
 ipywidgets
 rl_zoo3 @ git+https://github.com/DLR-RM/rl-baselines3-zoo@update/hf
-seaborn==0.12.2
+seaborn==0.13
+scipy==1.11
+wandb
+rliable
 
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch
