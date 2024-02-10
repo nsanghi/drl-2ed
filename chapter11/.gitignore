@@ -1,0 +1,7 @@
+logs/
+lightning_logs/
+MNIST_data/
+*.zip
+hub/
+runs/
+wandb/
