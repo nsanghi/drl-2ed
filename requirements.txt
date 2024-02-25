@@ -16,6 +16,9 @@ matplotlib
 panda-gym @ git+https://github.com/qgallouedec/panda-gym@master
 gymnasium[mujoco-py]
 gymnasium[mujoco]
+pettingzoo[butterfly]>=1.24.0
+supersuit>=3.9.0
+
 
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch
