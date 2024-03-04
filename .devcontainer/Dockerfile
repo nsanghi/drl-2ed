@@ -15,6 +15,4 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 # RUN conda install -y python=3.6 \
 #     && pip install --no-cache-dir pipx \
 #     && pipx reinstall-all
-# COPY requirements.txt /tmp/pip-tmp/
-# RUN pip install -r /tmp/pip-tmp/requirements.txt \
-#     && rm -rf /tmp/pip-tmp
+RUN pip3 install --user -r requirements.txt
