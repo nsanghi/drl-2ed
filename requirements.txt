@@ -1,6 +1,6 @@
 jupyterlab==4.0.7
 box2d-py==2.3.8
-stable-baselines3[extra]>=2.1
+stable-baselines3[extra]==2.1.0
 moviepy==1.0.3
 #huggingface_sb3 @ git+https://github.com/huggingface/huggingface_sb3@gymnasium-v2
 huggingface_sb3>=3.0
