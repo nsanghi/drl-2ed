@@ -1,4 +1,6 @@
-# drl-2ed - 
+# drl-2ed
+
+Source Code for the book "Deep Reinforcement Learning with Python", second edition by Nimish Sanghi
 
 ### Local Install - Ubuntu and Windows WSL2
 1. Please install following ubuntu packages using:
@@ -17,4 +19,4 @@ pip install -r requirements.txt
 2. To run on Colab, you will need to uncomment and execute the code cells under section with heading "Running in Colab/Kaggle". 
 3. Unless specified, you can run the code in regular CPU environments in Colab.
 
-#### Detailed Instructions can be found in Chapter 1 of the book which provides a step by step process of running the notebooks in various environments
+#### Refer to Chapter 1 of the book for a step by step process of setting up envrionment on the platform of your choice. You may also refer to the pdf "Installation_steps.pdf" in this repository.
