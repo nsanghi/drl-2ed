@@ -9,4 +9,4 @@ sudo apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #     && pip install --no-cache-dir pipx \
 #     && pipx reinstall-all
 pip install --upgrade pip
-pip install --user -r requirements.txt
+pip install --no-cache-dir --no-warn-script-location --user -r requirements.txt
