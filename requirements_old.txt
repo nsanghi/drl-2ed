@@ -1,12 +1,12 @@
 jupyterlab==4.0.7
 box2d-py==2.3.8
-stable-baselines3[extra]==2.3.2
+stable-baselines3[extra]==2.1.0
 moviepy==1.0.3
 #huggingface_sb3 @ git+https://github.com/huggingface/huggingface_sb3@gymnasium-v2
 huggingface_sb3>=3.0
 gym==0.26.2
 ipywidgets
-rl_zoo3==2.3.0
+rl_zoo3 @ git+https://github.com/DLR-RM/rl-baselines3-zoo
 seaborn==0.13
 scipy==1.11
 wandb

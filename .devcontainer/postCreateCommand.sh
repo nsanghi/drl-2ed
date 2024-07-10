@@ -8,4 +8,5 @@ sudo apt-get update && export DEBIAN_FRONTEND=noninteractive \
 # RUN conda install -y python=3.6 \
 #     && pip install --no-cache-dir pipx \
 #     && pipx reinstall-all
+pip install --upgrade pip
 pip install --user -r requirements.txt
